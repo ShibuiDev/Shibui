@@ -39,7 +39,7 @@ export const LogoContainer = styled.h2`
     cursor: pointer;
     font-size: 35px;
     color: #fff;
-
+    z-index: 10000;
     span{
         color: #7700ad;
         &:nth-child(1){
@@ -68,21 +68,18 @@ export const Menu = styled.ul`
     justify-content: space-between;
     list-style: none;
     align-items: center;
+    z-index: 999;
     @media (max-width: 980px){
         background-color: #111;
         position: absolute;
-        top: 16vh;
-        right: ${({open}) => open ? '-20%' : '-100%'};
-        width: 80%;
+        top: ${({open}) => open ? '16vh' : '-100%'};
+        left: 0;
+        width: 100%;
         height: 85vh;
         justify-content: center;
         flex-direction: column;
-        align-items: flex-start;
-        border-bottom-left-radius: 30%;
+        align-items: center;
         transition: 1s all ease
-    }
-    @media (max-width: 500px){
-        right: ${({open}) => open ? '-10%' : '-100%'};
     }
 `;
 
@@ -91,7 +88,6 @@ export const MenuItem = styled.li`
     height: 100%;
     @media (max-width: 980px){
         height: 90px;
-        margin-left: 20%;
     }
 `;
 
