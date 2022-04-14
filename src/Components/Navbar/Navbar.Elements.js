@@ -1,12 +1,15 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+
     width: 100%;
     height: 16vh;
     padding: 30px;
     margin-top: 20px;
+    z-index: 10000;
     @media (max-width: 980px){
-    background: ${({open}) => open ? '#7700ad90' : ''};
+    position: ${({open}) => open ? 'fixed' : ''};
+    background: ${({open}) => open ? '#111' : ''};
     margin-top: 0;
     }
 `;
@@ -66,15 +69,16 @@ export const Menu = styled.ul`
     list-style: none;
 
     @media (max-width: 980px){
-        background-color: #7700ad90;
+        background-color: #111;
         position: absolute;
-        top: ${({open}) => open ? '16vh' : '-100%'};
-        left: 0;
+        top: 16vh;
+        right: ${({open}) => open ? '-20%' : '-100%'};
         width: 100%;
         height: 85vh;
         justify-content: center;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
+        border-bottom-left-radius: 30%;
         transition: 1s all ease
     }
 `;
@@ -84,6 +88,7 @@ export const MenuItem = styled.li`
     height: 100%;
     @media (max-width: 980px){
         height: 90px;
+        margin-left: 20%;
     }
 `;
 
@@ -105,7 +110,7 @@ export const MenuItemLink = styled.a`
     &:hover{
         opacity: 0.8;
         transform: scale(1.1);
-        color: #aa00ee;
+        color: #306;
         transition: 0.5s all ease;
     }
 
