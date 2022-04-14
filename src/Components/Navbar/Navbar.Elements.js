@@ -52,6 +52,7 @@ export const Wrapper = styled.div`
 export const LogoContainer = styled.h2`
     margin-left: 0.5rem;
     display: flex;
+    width: 200px;
     align-items: center;
     height: 40px;
     font-family: sans-serif;
