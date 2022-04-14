@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, {keyframes} from 'styled-components'
 
 export const Container = styled.div`
 
@@ -8,10 +8,26 @@ export const Container = styled.div`
     margin-top: 20px;
     z-index: 10000;
     @media (max-width: 980px){
+    display: flex;
+    align-items: center;
     position: ${({open}) => open ? 'fixed' : ''};
     background: ${({open}) => open ? '#111' : ''};
     margin-top: 0;
     border-bottom: ${({open}) => open ? '2px solid #aaa' : ''};
+    animation: ${({open}) => open ? 'opa 1s both': ''};
+    }
+    @keyframes opa{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    @keyframes opaa{
+        100%{
+            opacity: 0;
+        }
     }
 `;
 
@@ -23,9 +39,12 @@ export const Wrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     margin: auto;
+
     @media (max-width: 980px){
         justify-content: space-between;
+
     }
 `;
 
@@ -73,8 +92,8 @@ export const Menu = styled.ul`
     @media (max-width: 980px){
         background-color: #111;
         position: absolute;
-        top: ${({open}) => open ? '16vh' : '-100%'};
-        left: 40%;
+        top: 15.8vh;
+        right: ${({open}) => open ? '0' : '-60%'};
         width: 60%;
         height: 85vh;
         justify-content: center;
@@ -82,7 +101,8 @@ export const Menu = styled.ul`
         align-items: center;
         border-left: 2px solid #aaa;
         border-bottom-left-radius: 40%;
-        transition: 1s all ease
+        transition: 1s all ease;
+        animation: ${({open}) => open ? 'opa 1s both': 'opaa 1s both'};
     }
 `;
 
