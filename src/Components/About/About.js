@@ -17,7 +17,7 @@ const About = ()=>{
                     <Myh5>
                         Web Developers  
                         <span>
-                            UX/UI Designers
+                             UX/UI Designers
                         </span>
                     </Myh5>
                     <MyP>
