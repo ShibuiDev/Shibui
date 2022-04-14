@@ -26,7 +26,19 @@ export const Container = styled.div`
     }
     @keyframes opaa{
         100%{
-            opacity: 0;
+            opacity:0;
+        }
+        50%{
+            opacity:0;
+        }
+        30%{
+            opacity:0;
+        }
+        20%{
+            opacity:0;
+        }
+        0%{
+            opacity: 1;
         }
     }
 `;
@@ -71,9 +83,14 @@ export const LogoContainer = styled.h2`
             height: 28px;
         }
     }
+    @media (max-width: 980px){
+        margin-left: 8%;
+    }
     @media (max-width: 320px){
         font-size: 25px;
         margin: 0;
+        margin-left: 0;
+        width: 150px;
         span{
         &:nth-child(2){
             height: 20px;
@@ -93,8 +110,8 @@ export const Menu = styled.ul`
     @media (max-width: 980px){
         background-color: #111;
         position: absolute;
-        top: 15.8vh;
-        right: ${({open}) => open ? '0' : '-60%'};
+        top: ${({open}) => open ? '15.8vh' : '-100%'};
+        left: 40%;
         width: 60%;
         height: 85vh;
         justify-content: center;
