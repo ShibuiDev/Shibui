@@ -67,7 +67,7 @@ export const Menu = styled.ul`
     display: flex;
     justify-content: space-between;
     list-style: none;
-
+    align-items: center;
     @media (max-width: 980px){
         background-color: #111;
         position: absolute;
