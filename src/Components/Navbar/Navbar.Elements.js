@@ -73,13 +73,16 @@ export const Menu = styled.ul`
         position: absolute;
         top: 16vh;
         right: ${({open}) => open ? '-20%' : '-100%'};
-        width: 100%;
+        width: 80%;
         height: 85vh;
         justify-content: center;
         flex-direction: column;
         align-items: flex-start;
         border-bottom-left-radius: 30%;
         transition: 1s all ease
+    }
+    @media (max-width: 500px){
+        right: ${({open}) => open ? '-10%' : '-100%'};
     }
 `;
 
