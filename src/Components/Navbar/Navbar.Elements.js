@@ -11,6 +11,7 @@ export const Container = styled.div`
     position: ${({open}) => open ? 'fixed' : ''};
     background: ${({open}) => open ? '#111' : ''};
     margin-top: 0;
+    border-bottom: ${({open}) => open ? '2px solid #aaa' : ''};
     }
 `;
 
@@ -68,17 +69,19 @@ export const Menu = styled.ul`
     justify-content: space-between;
     list-style: none;
     align-items: center;
-    z-index: 999;
+    z-index: 800;
     @media (max-width: 980px){
         background-color: #111;
         position: absolute;
         top: ${({open}) => open ? '16vh' : '-100%'};
-        left: 0;
-        width: 100%;
+        left: 40%;
+        width: 60%;
         height: 85vh;
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        border-left: 2px solid #aaa;
+        border-bottom-left-radius: 40%;
         transition: 1s all ease
     }
 `;
