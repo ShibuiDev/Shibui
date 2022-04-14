@@ -110,8 +110,8 @@ export const Menu = styled.ul`
     @media (max-width: 980px){
         background-color: #111;
         position: absolute;
-        top: ${({open}) => open ? '15.8vh' : '-100%'};
-        left: 40%;
+        top: 15.8vh;
+        right: ${({open}) => open ? '0' : '-100%'};
         width: 60%;
         height: 85vh;
         justify-content: center;
