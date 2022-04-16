@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Shibui/static/css/main.2dcc792d.css",
-    "main.js": "/Shibui/static/js/main.0c676f3b.js",
-    "static/media/Pablo_profile-min.png": "/Shibui/static/media/Pablo_profile-min.2ce14d79a7a94dd02190.png",
-    "static/media/Felipe_profile-min.png": "/Shibui/static/media/Felipe_profile-min.ec67ec99f79a0da614c8.png",
+    "main.js": "/Shibui/static/js/main.25bfa08a.js",
     "static/media/back--min.jpg": "/Shibui/static/media/back--min.f2fa106f08fa28048a4f.jpg",
+    "static/media/Felipe-min.png": "/Shibui/static/media/Felipe-min.579cdde00c0f25207cf6.png",
+    "static/media/Ken-min.png": "/Shibui/static/media/Ken-min.2ccbbce7bec371b865b3.png",
     "static/media/portfolio-img-1.png": "/Shibui/static/media/portfolio-img-1.c4912db6bb34cf29cb15.png",
     "static/media/porfolio-img-2.png": "/Shibui/static/media/porfolio-img-2.203bebd48355ca338546.png",
     "index.html": "/Shibui/index.html",
     "main.2dcc792d.css.map": "/Shibui/static/css/main.2dcc792d.css.map",
-    "main.0c676f3b.js.map": "/Shibui/static/js/main.0c676f3b.js.map"
+    "main.25bfa08a.js.map": "/Shibui/static/js/main.25bfa08a.js.map"
   },
   "entrypoints": [
     "static/css/main.2dcc792d.css",
-    "static/js/main.0c676f3b.js"
+    "static/js/main.25bfa08a.js"
   ]
 }
