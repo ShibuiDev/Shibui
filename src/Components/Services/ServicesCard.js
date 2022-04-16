@@ -17,7 +17,7 @@ const SCards = ()=>{
                 <FaCubes/>
                 <Myh5>Product Design</Myh5>
                 <Pr>
-                    <P>Establish your users' needs with Discovery Workshops. Fulfill them with award-winning UI/UX</P>
+                    <P>Product development at any stage and on-going support after you launch.</P>
                 </Pr>
             </Card>
         </Box>

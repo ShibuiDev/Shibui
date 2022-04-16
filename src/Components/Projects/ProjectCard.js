@@ -29,7 +29,7 @@ const ProjectCard = ()=>{
                     <p>Artist Official Website with Music, Social Media and Blog features</p>
                 </Desc>
                 <Btn>
-                    <a href="">Learn more...</a>
+                    <a href="https://andresmejiamusic.com" target='_blank'>Learn more...</a>
                 </Btn>
             </CardContainer>
         </Container>

@@ -24,20 +24,15 @@ export const ArticleMain = styled.article`
     }
 `;
 
-export const ImgContainer = styled.div`
+export const ImgContainer = styled.div` 
+
     img{
         height: 400px;
-        width: 250px;
+        width: 350px;
     }
         @media (max-width: 1050px){
             margin: 40px 0;
         }
-`;
-
-export const Divider = styled.hr`
-    width: 250px;
-    height: 2px;
-    box-shadow: 0 10px 20px #aa00ee;
 `;
 
 export const AboutText = styled.div`
@@ -57,6 +52,7 @@ export const Myh2 = styled.h2`
     font-size: 65px;
     margin-bottom: 15px;
     font-family: sans-serif;
+    text-align: center;
 `;
 
 export const Myh5 = styled.h5`

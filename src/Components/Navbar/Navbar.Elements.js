@@ -150,7 +150,7 @@ export const MenuItemLink = styled.a`
     &:hover{
         opacity: 0.8;
         transform: scale(1.1);
-        color: #306;
+        color: #7700ad;
         transition: 0.5s all ease;
     }
 

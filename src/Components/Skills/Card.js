@@ -10,7 +10,7 @@ const Card = ()=>{
             <FaHtml5 className='html'/>
             <Myh5>HTML</Myh5>
             <Pr>
-                <P>HyperText We create your Web Structure and optimize it, reducing loading time and unnecesary lines of code.</P>
+                <P>We create your Web Structure and optimize it, reducing loading time and unnecesary lines of code.</P>
             </Pr>
         </CardContainer>
         <CardContainer>
@@ -38,7 +38,7 @@ const Card = ()=>{
             <SiReact className='react'/>
             <Myh5>REACT</Myh5>
             <Pr>
-                <P>Shake things up by adding some complex functionality to your project always making sure it’s still light and optimized for your users</P>
+                <P>We shake things up by adding some complex functionality to your project always making sure it’s still light and optimized for your users.</P>
             </Pr>
         </CardContainer>
         </Box>

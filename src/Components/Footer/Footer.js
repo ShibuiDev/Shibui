@@ -5,7 +5,7 @@ import { SiGithub, SiInstagram } from "react-icons/si";
 const Footer = ()=>{
     return(
         <FooterS id='Contact'>
-            <p>Contact with us!</p>
+            <p>Contact us!</p>
             <p>Here are our social networks</p>
             <Social>
                 <A href="https://github.com/ShibuiDev" target='_blank'><SiGithub/></A>
